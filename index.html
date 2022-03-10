@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HikeStrong</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+     
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+   
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">RockSedona</a>
+
+        </div>
+
+        <div>
+            <button class="navbar-toggler text-white type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+
+            </button>
+        </div>
+
+    </header>
+
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+
+            <div class="row align-items-start">
+
+                <div class="col-12 col-sm-4 mt-4">
+                
+                  <a href="/" class="row text-decoration-none">
+
+                  <div class="col-2 col-sm-12 mb-4">
+                      <img src="img/img1.jpg" alt="hike" class="img-fluid" width="640" height="480" Loading="lazy">
+                  </div>
+
+                  <div class="col-10">
+                      <h3>Amazing Hikes!</h3>
+                      <p>Ask me how you can do this hike.</p>
+                      <p>Learn More <i class="bi bi-arrow-right"></i></p>
+                  </div>
+
+                  </a>
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+                
+                    <a href="/" class="row text-decoration-none">
+  
+                    <div class="col-2 col-sm-12 mb-4">
+                        <img src="img/img8.jpg" alt="rocks" class="img-fluid" width="640" height="480" Loading="lazy">
+                    </div>
+  
+                    <div class="col-10">
+                        <h3>These are the places where memories are made</h3>
+                        <p>Experience the great outdoors with incredible stories that you'll be telling for years.</p>
+                        <p>Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+  
+                    </a>
+                  </div>
+
+                  <div class="col-12 col-sm-4 mt-4">
+                
+                    <a href="/" class="row text-decoration-none">
+  
+                    <div class="col-2 col-sm-12 mb-4">
+                        <img src="img/img9.jpg" alt="monument valley" class="img-fluid" width="640" height="480" Loading="lazy">
+                    </div>
+  
+                    <div class="col-10">
+                        <h3>Come visit Monument Valley</h3>
+                        <p>Incredible views with breathtaking Sunsets</p>
+                        <p>Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+  
+                    </a>
+                  </div>
+                
+               
+
+            </div>
+
+            
+
+            
+
+        
+
+         <button class="navbar-toggler dropdown-nav__closeNavBtn type="button" data-bs-toggle="collapse" data-bs-target="#navbar"    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+
+         </button>  
+        
+        </div>
+
+
+    </nav>
+
+
+
+
+    <section class="hero">
+
+        <div class="hero__overlay"></div>
+         
+       <video plays-inline="plays-inline" autoplay="autoplay" muted="muted" Loop="loop" Loading="lazy" class="hero__video">
+
+        <source src="img/video.mp4" type="video/mp4">
+       </video>
+
+        
+        <div class="hero__content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero__content-width">
+                <div class="text-white">
+                    <h1 class="hero__heading fw-bold mb-4"> Discover Sedona</h1>
+                    <p class="lead mb-4">Sedona is an Arizona desert town near Flagstaff that is surrounded by red-rock buttes, steep canyon walls and pine forests. It’s noted for its mild climate and vibrant arts community. Uptown Sedona is dense with New Age shops, spas and art galleries.</p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Call Now</a>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+        <a href="#scroll-down" class="hero__scroll-btn">Explore
+            <i class="bi bi-arrow-down-short"></i>
+        </a>
+           
+
+    </section>
+
+    
+    <a id="scroll-down"></a>
+
+    <!--section 1-->
+
+    <section class="steps steps--background">
+
+         <div class="container-custom">
+
+           <div class="row">
+               <div class="col-12 col-sm-6 d-md-flex   justify-content-md-center">
+                <img src="img/img2.jpg" alt="mountains" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746"  Loading="lazy">
+
+                 </div>
+
+              <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__contant-width">
+                    
+                    <h1 class="h2 mb-4">Amazing Red Rock Views</h1>
+                    <p class="mb-4">Devil's bridge overlook is one of Sedona’s most popular destinations for photographers. It is also the go-to spot for taking in a breathtaking sunset over the red rocks. Viewing a dazzling red rock sunset is one of the most memorable things you can do on any Sedona vacation. Devils Bridge is considered to be one of Sedona’s sacred vortex sites.</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+       </div>
+
+    
+    </section>
+
+    <!--section 2-->
+
+
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                <img src="img/img3.jpg" alt="church" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746" Loading="lazy">
+
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__contant-width">
+                    
+                    <h1 class="h2 mb-4">Come and See what you're Missing</h1>
+                    <p class="mb-4">The Chapel of the Holy Cross is one of Sedona's most endearing and cherished sites. It's truly an architectural wonder like no other in the world- an absolute must-see for any Sedona newcomers. This unique Roman Catholic church was built in between 2 massive red rock formations in 1956. Due to the prime location, spectacular views can be enjoyed both inside and out. Although the chapel is not open for services, anyone can come in to meditate, pray, or light a candle in honor of a loved one.</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    
+    </section>
+
+    <!--section 3-->
+
+    <section class="steps steps--background">
+
+        <div class="container-custom">
+
+          <div class="row">
+              <div class="col-12 col-sm-6 d-md-flex   justify-content-md-center">
+               <img src="img/img4.jpg" alt="horseshoe bend" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746"  Loading="lazy">
+
+                </div>
+
+             <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+               <div class="steps__contant-width">
+                   
+                   <h1 class="h2 mb-4">A Destination like no other</h1>
+                   <p class="mb-4">A social media darling, Horseshoe Bend has become one of the most recognized and visited places in Glen Canyon National Recreation Area. The parking lot and trailhead is located off US Highway 89, approximately 5 miles (8 km) south of the Carl Hayden Visitor Center.</p> 
+                                        
+                    
+                   <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+               </div>
+           </div>
+         </div>
+
+      </div>
+   
+   </section>
+
+
+<!--section with 3 col-->
+
+<section class="bg-dark text-white py-4">
+
+    <div class="container-custom my-4">
+
+        <div class="row">
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="img/img5.jpg" class="mb-4 img-fluid" alt="young couple" width="441" height="248" Loading="lazy">
+                <h3>Incredible Hikes</h3>
+                <p>From the easy to the difficult. There are hikes for all skill levels in Sedona.</p>
+
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                
+                <img src="img/img6.jpg" class="mb-4 img-fluid" alt="monument valley" width="441" height="268" Loading="lazy">
+                <h3>Views for Miles</h3>
+                <p>Incredible day trips are just a few hours away.</p>
+
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="img/img7.jpg" class="mb-4 img-fluid" alt="cactus" width="441" height="248" Loading="lazy">
+                <h3>Dream it and Do It</h3>
+                <p>The Sonoran Desert is one of the most beautiful places on earth that covers parts of Arizona and Mexico.</p>
+
+            </div>
+        </div>
+      
+
+    </div>
+   
+
+</section>
+
+
+<footer class="footer bg-dark text-white">
+
+     <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+
+      <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="me-2 text-muted text-decoration-none">
+              <i class="bi bi-sun"></i>
+              <span>&copy; 2022 CarlosG</span>
+          </a>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+
+        <li class="ms-3"><a class="text-muted" href="#"> <i class="bi bi-twitter"></i></a></li> 
+        <li class="ms-3"><a class="text-muted" href="#"> <i class="bi bi-instagram"></i></a></li> 
+        <li class="ms-3"><a class="text-muted" href="#"> <i class="bi bi-facebook"></i></a></li> 
+
+      </ul>
+
+     </div>
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+</body>
+</html>
